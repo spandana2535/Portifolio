@@ -1,6 +1,5 @@
 import React from 'react';
 import './skills.css';
-import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
 const Skills = () => {

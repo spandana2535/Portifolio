@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import './contact.css';
 import { AiOutlineMail } from 'react-icons/ai';
 import { GrLinkedin } from 'react-icons/gr';
-import { BsWhatsapp } from 'react-icons/bs';
 import emailjs from 'emailjs-com';
  import {BsFillChatTextFill} from 'react-icons/bs';
 const Contact = () => {

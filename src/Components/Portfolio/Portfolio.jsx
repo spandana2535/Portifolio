@@ -1,12 +1,12 @@
 import React from 'react';
-import './portifolio.css';
+import './portfolio.css';
 import nbad from '../../resources/nbad.jpg';
 import spring from '../../resources/spring-batch.png';
 import hcd from '../../resources/hcd.jpeg';
 import redux from '../../resources/redux.jpeg';
-import portifolio from '../../resources/portifolio.png';
+import portfolio from '../../resources/portfolio.png';
 
-const Portifolio = () => {
+const Portfolio = () => {
   const projects = [
     {
       id: 1,
@@ -35,20 +35,20 @@ const Portifolio = () => {
 
     {
       id: 5,
-      image: portifolio,
-      title: 'Personal Portifolio',
-      github: 'https://github.com/spandana2535/Portifolio'
+      image: portfolio,
+      title: 'Personal portfolio',
+      github: 'https://github.com/spandana2535/portfolio'
     },
   ];
 
   return (
-    <section id="portifolio">
+    <section id="portfolio">
       <h5>My Projects</h5>
-      <h2>Portifolio</h2>
-      <div className="container portifolio-container">
+      <h2>portfolio</h2>
+      <div className="container portfolio-container">
         {projects.map(({ id, image, title, github }) => (
-          <article key={id} className="portifolio-item">
-            <div className="portifolio_image">
+          <article key={id} className="portfolio-item">
+            <div className="portfolio_image">
               <img src={image} alt={title} />
             </div>
             <h3>{title}</h3>
@@ -62,4 +62,4 @@ const Portifolio = () => {
   );
 };
 
-export default Portifolio;
+export default Portfolio;
