@@ -37,7 +37,7 @@ const Portfolio = () => {
       id: 5,
       image: portfolio,
       title: 'Personal portfolio',
-      github: 'https://github.com/spandana2535/portfolio'
+      github: 'https://github.com/spandana2535/Portifolio'
     },
   ];
 
