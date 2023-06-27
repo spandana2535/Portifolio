@@ -1,0 +1,134 @@
+.about_div {
+  display: grid;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+  padding-top: 2rem;
+}
+
+.about_image {
+  border-radius: 2rem;
+  overflow: hidden;
+  /* transform: rotate(10deg); */
+  transition: var(--transition);
+}
+
+.about_image:hover {
+  transform: rotate(10deg);
+}
+
+.about_cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+}
+
+.about_card {
+  background: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.about_card:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+.about_icon {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.about_card h5 {
+  font-size: 0.95rem;
+}
+
+.about_card small {
+  font-size: 0.7rem;
+  color: var(--color-light);
+}
+
+.about_content p {
+  margin: 1rem 0 1rem;
+  color: var(--color-light);
+}
+
+/* Media Queries - medium device */
+@media screen and (max-width: 1024px) {
+  .about_div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_me {
+    width: 50%;
+    margin: 2rem auto 4rem;
+    /* background-color: red; */
+  }
+
+  .about_image {
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    left: 12rem;
+  }
+
+  .about_content {
+    margin: 1rem;
+  }
+
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* Media Queries - small device */
+@media screen and (max-width: 480px) {
+  .about_div {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .about_image {
+    height: 15rem;
+    width: 15rem;
+    left: 0;
+    margin: 2rem auto;
+  }
+
+  .about_content {
+    margin: 1rem;
+  }
+
+  .about_content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+/* Media Queries - extra small device */
+@media screen and (max-width: 320px) {
+  .about_image {
+    height: 12rem;
+    width: 12rem;
+  }
+
+  .about_card {
+    padding: 0.8rem;
+  }
+
+  .about_card h5 {
+    font-size: 0.9rem;
+  }
+
+  .about_card small {
+    font-size: 0.6rem;
+  }
+
+  .about_content p {
+    margin: 0.8rem 0 1rem;
+  }
+}
