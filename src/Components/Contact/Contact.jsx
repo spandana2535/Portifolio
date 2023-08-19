@@ -28,8 +28,8 @@ const Contact = () => {
           <article id="email" className='contact-option'>
             <AiOutlineMail className='contact-icon'/>
             <h4>Email</h4>
-            <h5>spandanapasupuleti97@gmail.com</h5>
-            <a href="mailto:spandanapasupuleti97@gmail.com" target="_blank" rel="noreferrer">
+            <h5>spandanapasupuleti2535@gmail.com</h5>
+            <a href="mailto:spandanapasupuleti2535@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -60,8 +60,8 @@ const Contact = () => {
           <article id="sms" className="contact-option">
     <BsFillChatTextFill className="contact-icon" />
   <h4>Text Message</h4>
-  <h5>+19803277156</h5>
-  <a href="sms:+19803277156">Send a text message</a>
+  <h5>+19805521975</h5>
+  <a href="sms:+19805521975">Send a text message</a>
 </article>
 
         </div>

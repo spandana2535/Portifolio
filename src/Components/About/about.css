@@ -57,6 +57,10 @@
   color: var(--color-light);
 }
 
+.about_button{
+  position: relative;
+  left: 12rem;
+}
 /* Media Queries - medium device */
 @media screen and (max-width: 1024px) {
   .about_div {
@@ -107,6 +111,7 @@
   .about_content p {
     margin: 1rem 0 1.5rem;
   }
+  
 }
 
 /* Media Queries - extra small device */
@@ -131,4 +136,5 @@
   .about_content p {
     margin: 0.8rem 0 1rem;
   }
+
 }

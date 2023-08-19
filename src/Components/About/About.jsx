@@ -45,10 +45,15 @@ const About = () => {
             </a>
           </div>
           <p>
-          Adaptable full-stack developer with a passion for continuous learning. Skilled in Java, JavaScript, Python, SQL, and proficient in databases like MySQL, MongoDB, and PostgreSQL. Experienced in web design, cloud technologies (AWS, GCP), and user-centered design principles. 
-          Committed to delivering efficient solutions and enhancing user experiences.
+          I am a seasoned web application developer with around 3 years of experience in J2EE technologies, 
+          Java, RESTful services, and more. Proficient in all phases of SDLC, I excel in requirements analysis, 
+          design, coding, testing, and implementation. My expertise spans from Core Java to 
+          microservices architecture, including Spring Boot and React JS for scalable applications. 
+          I'm skilled in building RESTful APIs, utilizing Redux for state management, 
+          and have a strong grasp of both SQL and NoSQL databases. Certified in AWS, 
+          I bring a comprehensive skill set to create reliable and efficient applications.
         </p>
-        <a href="#contact" id = "about-contact-button" className='button'>Get in touch</a>
+        <a href="#contact" className='button about_button'>Get in touch</a>
         </div>
       </div>
     </section>

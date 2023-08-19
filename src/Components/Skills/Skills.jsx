@@ -62,6 +62,7 @@ const Skills = () => {
           <ol>
             <li>JDBC</li>
             <li>Spring (MVC, Boot, Batch)</li>
+            <li>Hibernate</li>
           </ol>
         </article>
         <article  className='skill'>
@@ -69,6 +70,7 @@ const Skills = () => {
           <ol>
             <li>Unix</li>
             <li>Linux</li>
+            <li>Windows</li>
           </ol>
         </article>
         <article  className='skill'>

@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from '../../resources/Spandana Pasupuleti-Resume.pdf';
+import resume from '../../resources/Spandana_Pasupuleti_CV_SS.pdf';
 
 const CTA = () => {
   return (
